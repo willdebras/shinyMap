@@ -2,13 +2,6 @@ elections_string <-
   "<svg width='2290' height='1256' xmlns='http://www.w3.org/2000/svg'>
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
  <g>
-  <title>background</title>
-  <rect fill='#fff' id='canvas_background' height='1258' width='2292' y='-1' x='-1'/>
-  <g display='none' overflow='visible' y='0' x='0' height='100%' width='100%' id='canvasGrid'>
-   <rect fill='url(#gridpattern)' stroke-width='0' y='0' x='0' height='100%' width='100%'/>
-  </g>
- </g>
- <g>
   <title>Layer 1</title>
   <path id='DCbox' d='m1853.4446,755.17092l222.98805,-0.00001l-1.14942,48.27577l-222.41335,-1.72413l0.57472,-46.55163z' fill-opacity='null' stroke-opacity='null' stroke-width='1.5' stroke='{bordercolor}' fill='transparent'/>
   <path id='AKbox' d='m99.42509,958.61879l286.20633,1.72413l-2.29885,218.39037l-288.50517,-4.02298l4.59769,-216.09152z' fill-opacity='null' stroke-opacity='null' stroke-width='{borderwidth}' stroke='{bordercolor}' fill='transparent'/>

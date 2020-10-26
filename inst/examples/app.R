@@ -7,8 +7,8 @@ datatest <- runif(51)
 ui <- function() {
   
   fluidPage(
-    shinyMap::mapInput("map", data = datatest),
-    verbatimTextOutput("debug")
+    shinyMap::mapInput("map", data = datatest)#,
+    #verbatimTextOutput("debug")
   )
 }
 

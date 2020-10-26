@@ -76,7 +76,6 @@ mapInput <- function(
       stylesheet = "styles.css"
     ),
     tags$div(
-      # change this to use our css
       class = "map",
       id = inputId,
       `data-input-id` = inputId,

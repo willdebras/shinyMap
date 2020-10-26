@@ -3,8 +3,12 @@
   --toggle-color: #FFF;
   --toggle-bg-color: #C6C6C6;
   --toggle-bg-color-active: #03a9f4;
+  
+/*
   --toggle-width: 50px;
   --toggle-height: calc(var(--toggle-width) / 2)
+  
+  */
 }
 
 .map {
@@ -28,18 +32,21 @@ svg{
 }
 
 .state:hover, .state:focus {
-  fill: #939799  !important;
-  stroke:#939799 !important;
+  /*fill: #939799  !important;*/
+  fill: #939799 !important;
+  stroke:black !important;
 }
 
 
 
 .state:active {
-  fill: var(--toggle-height);
-  stroke:#FF4500 !important;
+  /*fill: var(--toggle-height);*/
+  fill: #939799 !important;
+  stroke:black !important;
 }
 
 .state.selected {
-  fill:#FF4500  !important;
-  stroke:#FF4500 !important;
+  /*fill:#FF4500  !important;*/
+  fill: #939799 !important;
+  stroke:black !important;
 }
