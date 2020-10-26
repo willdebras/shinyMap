@@ -1,5 +1,5 @@
 elections_string <- 
-  "<svg width='2290' height='1256' xmlns='http://www.w3.org/2000/svg'>
+  "<svg viewBox='0 0 2290 1256' width='2290' height='1256' xmlns='http://www.w3.org/2000/svg'>
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
  <g>
   <title>Layer 1</title>
