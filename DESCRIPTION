@@ -1,0 +1,29 @@
+Package: shinyBody
+Type: Package
+Title: An SVG Human Body Shiny Input Widget
+Version: 0.1.0
+Authors@R:
+  person(given = "Maya",
+         family = "Gans",
+         role = c("aut", "cre"),
+         email = "jaffemaya@gmail.com"
+  )
+Description: Just a single svg human body widget to add to your shiny app. 
+License: MIT + file LICENSE
+URL: https://github.com/MayaGans/shinyBody
+BugReports: https://github.com/MayaGans/shinyBody/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
+Imports: 
+    magrittr,
+    shiny,
+    htmltools,
+    tidyr,
+    glue,
+    fBasics,
+    grDevices,
+    stats,
+    RColorBrewer,
+    scales,
+    vctrs
