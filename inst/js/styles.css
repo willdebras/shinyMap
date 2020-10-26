@@ -1,102 +1,45 @@
-.human-body {
-position: relative;
-height: 500px;
-width: 230px;
+:root {
+  --main-bg-color: #F3F3F3;
+  --toggle-color: #FFF;
+  --toggle-bg-color: #C6C6C6;
+  --toggle-bg-color-active: #03a9f4;
+  --toggle-width: 50px;
+  --toggle-height: calc(var(--toggle-width) / 2)
 }
 
-.human-body svg:hover {
-cursor: pointer;
+.map {
+  position: relative;
+  height: 500px;
+  width: 230px;
 }
 
-.human-body svg:hover path {
-fill: #FDE725FF;
+.togglepos {
+
+
 }
 
-.human-body svg {
-position: absolute;
-left: 50%;
+svg{
+  pointer-events:all;
 }
 
-.human-body svg#head {
-margin-left: -28.5px;
-top: 3px;
+
+.map svg:hover {
+ cursor: pointer;
 }
 
-.human-body svg#left-shoulder {
-margin-left: -53.5px;
-top: 73px;
+.state:hover, .state:focus {
+  fill: #939799  !important;
+  stroke:#939799 !important;
 }
 
-.human-body svg#right-shoulder {
-margin-left: 13.5px;
-top: 73px;
+
+
+.state:active {
+  fill: var(--toggle-height);
+  stroke:#FF4500 !important;
 }
 
-.human-body svg#left-arm {
-margin-left: -78px;
-top: 115px;
+.state.selected {
+  fill:#FF4500  !important;
+  stroke:#FF4500 !important;
 }
-
-.human-body svg#right-arm {
-margin-left: 38px;
-top: 115px;
-}
-
-.human-body svg#chest {
-margin-left: -43.5px;
-top: 93px;
-}
-
-.human-body svg#stomach {
-margin-left: -37.5px;
-top: 133px;
-}
-
-.human-body svg#left-leg {
-margin-left: -46.5px;
-top: 207px;
-z-index: 9999;
-}
-
-.human-body svg#right-leg {
-margin-left: 1.5px;
-top: 207px;
-z-index: 9999;
-}
-
-.human-body svg#left-hand {
-margin-left: -102.5px;
-top: 226px;
-}
-
-.human-body svg#right-hand {
-margin-left: 66.5px;
-top: 226px;
-}
-
-.human-body svg#left-foot {
-margin-left: -35.5px;
-top: 457px;
-}
-
-.human-body svg#right-foot {
-margin-left: 5.5px;
-top: 457px;
-}
-
-#area {
-display: block;
-width: 100%;
-clear: both;
-padding: 10px;
-text-align: center;
-font-size: 25px;
-font-family: Courier New;
-color: #a5a5a5;
-}
-
-#area #data {
-color: black;
-}
-
-.well{min-height:700px;}
