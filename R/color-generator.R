@@ -4,6 +4,6 @@
 #' @param low.col the color palette passed from body-input
 #' @param high.col the color palette passed from body-input
 #' @export
-mapPalette <- function (n, low.col = "#eef4fb", high.col = "#164a85") {
-  attr(color_vctr(n, text_color = color_scale(grDevices::colorRamp(c(low.col,high.col)))), ".text_color")
+mapPalette <- function (n, lowcol = "#ff0000", midcol = "white", highcol = "#2e5984") {
+  attr(color_vctr(n, text_color = color_scale(grDevices::colorRamp(c(lowcol, midcol, highcol)))), ".text_color")
 }

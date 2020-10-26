@@ -50,13 +50,16 @@ mapInput <- function(
   fillcolor = "transparent",
   bordercolor = "#000080",
   borderwidth = "2px",
+  lowcol = "#ff0000",
+  midcol = "white",
+  highcol = "#2e5984",
   ...
 ) {
 
   if (is.null(data)) {
-    data = rep(fillcolor, 50)
+    data = rep(fillcolor, 51)
   } else {
-      data = mapPalette(data, low.col, high.col)
+      data = shinyMap::mapPalette(data, lowcol, midcol, highcol)
   }
 
   map_options <- list(

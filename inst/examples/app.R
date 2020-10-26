@@ -2,12 +2,12 @@
 library(shiny)
 library(shinyMap)
 
-data <- runif(50)
+datatest <- runif(51)
 
 ui <- function() {
   
   fluidPage(
-    shinyMap::mapInput("map", border),
+    shinyMap::mapInput("map", data = datatest),
     verbatimTextOutput("debug")
   )
 }
