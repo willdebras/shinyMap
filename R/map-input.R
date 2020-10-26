@@ -54,13 +54,13 @@ mapInput <- function(
 ) {
 
   if (is.null(data)) {
-    data = rep(color, 13)
+    data = rep(fillcolor, 50)
   } else {
-      data = bodyPalette(data, low.col, high.col)
+      data = mapPalette(data, low.col, high.col)
   }
 
   map_options <- list(
-    html = HTML(glue::glue(keyboard_string))
+    html = HTML(glue::glue(elections_string))
   )
 
   htmltools::tagList(

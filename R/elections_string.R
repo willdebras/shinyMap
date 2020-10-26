@@ -1,4 +1,5 @@
-<svg width='2290' height='1256' xmlns='http://www.w3.org/2000/svg'>
+elections_string <- 
+  "<svg width='2290' height='1256' xmlns='http://www.w3.org/2000/svg'>
  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
  <g>
   <title>background</title>
@@ -70,3 +71,4 @@
   <path id='HI5' class='HI' class='state' d='m610.34362,1123.56099c0,0 31.03442,22.98846 31.03441,22.98845c0.00001,0.00001 -33.90797,20.11491 -34.48268,19.5402c-0.57472,-0.57471 -10.34481,-23.56317 -10.34481,-23.56318c0,0.00001 -8.62067,-1.72413 -8.62068,-1.72413c0.00001,0 -2.29884,-4.02298 -2.29884,-4.02298c0,0 24.7126,-13.21836 24.7126,-13.21836z' fill-opacity='null' stroke-opacity='null' stroke-width='{borderwidth}' stroke='{bordercolor}' fill='{data[11]}'/>
  </g>
 </svg>
+  "
