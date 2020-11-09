@@ -13,8 +13,9 @@
 
 .map {
   position: relative;
-  height: 500px;
-  width: 230px;
+  width: 2290px;
+  height: 1256px;
+  border:2px solid black;
 }
 
 .togglepos {

@@ -47,6 +47,7 @@
 mapInput <- function(
   inputId,
   data = NULL,
+  width = "100%",
   fillcolor = "transparent",
   bordercolor = "#000080",
   borderwidth = "2px",
@@ -61,10 +62,23 @@ mapInput <- function(
   } else {
       data = shinyMap::mapPalette(data, lowcol, midcol, highcol)
   }
+  
+  
+  pxwidth = as.numeric(strsplit(width, "%")[[1]][1])
+  
+  vieww = (2290*100) / pxwidth
+  
+  viewh = (1256*100) / pxwidth
+  
+  
+  
 
   map_options <- list(
     html = HTML(glue::glue(elections_string))
   )
+  
+
+    
 
   htmltools::tagList(
     htmltools::htmlDependency(
@@ -76,6 +90,8 @@ mapInput <- function(
       stylesheet = "styles.css"
     ),
     tags$div(
+      #style = "position:relative; width=1145px; height = 628px",
+
       class = "map",
       id = inputId,
       `data-input-id` = inputId,
