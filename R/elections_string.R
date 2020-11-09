@@ -1,6 +1,5 @@
 elections_string <- 
-  "<svg viewBox='0 0 2290 1256' width='2290' height='1256' xmlns='http://www.w3.org/2000/svg'>
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  "<svg width='2290' height='1256' xmlns='http://www.w3.org/2000/svg'>
  <g>
   <title>Layer 1</title>
   <path id='DCbox' d='m1853.4446,755.17092l222.98805,-0.00001l-1.14942,48.27577l-222.41335,-1.72413l0.57472,-46.55163z' fill-opacity='null' stroke-opacity='null' stroke-width='1.5' stroke='{bordercolor}' fill='transparent'/>
